@@ -1,0 +1,39 @@
+#nav {
+    background-color: #eee;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+    #nav ul {
+        height: auto;
+        text-align: center;
+    }
+
+    #nav li {
+        display: inline;
+    }
+
+    #nav a {
+        display: inline-block;
+        width: 100px;
+        padding: 10px;
+        background-color: #f4f4f4;
+        border: 1px dashed #333;
+        text-decoration: none;
+        color: #333;
+        text-align: center;
+        transform: scale(1) rotate(0deg);
+        transition-property: transform;
+        transition-duration: 1s;
+        transition-timing-function: ease-out;
+    }
+
+        #nav a:hover {
+            background-color: #333;
+            color: aqua;
+            transform: scale(1.2) rotate(1080deg);
+        }
+
+.zoomed {
+    transform: scale(1.5)
+}
